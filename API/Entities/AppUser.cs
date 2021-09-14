@@ -2,7 +2,7 @@ namespace API.Entities
 {
     public class AppUser
     {
-        protected int Id { get; set; }
-        protected string UserName { get; set; }
+        public int Id { get; set; }
+        public string UserName { get; set; }
     }
 }
